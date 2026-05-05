@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#1A1715">
+<title>Pin Bouteille — Bistronomie sous les pins, Pyla sur Mer</title>
+<meta name="description" content="Restaurant bistronomique et bar à tapas au coeur de la pinède du Pyla. Cuisine maison, produits de saison, terrasse plantée à cinq minutes de la Dune.">
+<meta property="og:title" content="Pin Bouteille — Bistronomie sous les pins">
+<meta property="og:description" content="Une table chaleureuse sous les pins du Pyla. Bistronomie, bar à tapas, terrasse, concerts et merch.">
+<meta property="og:type" content="restaurant.restaurant">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..900,30..100;1,9..144,300..900,30..100&family=DM+Sans:opsz,wght@9..40,300..600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ========== NAV ========== -->
+<header class="nav" data-nav>
+  <div class="nav__row">
+    <div class="nav__socials">
+      <a href="https://instagram.com/pinbouteille" target="_blank" rel="noopener" class="nav__social" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a href="https://facebook.com/pinbouteille" target="_blank" rel="noopener" class="nav__social" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      </a>
+    </div>
+
+    <a href="#hero" class="nav__logo" aria-label="Pin Bouteille, accueil">
+      <img class="nav__logo-img" src="img/logo-pnb.png" alt="Pin Bouteille">
+    </a>
+
+    <div class="nav__actions">
+      <button class="btn btn--solid" data-open="reservation">Réserver</button>
+      <button class="nav__menu-btn" data-open="menu" aria-label="Ouvrir le menu">
+        <span class="nav__menu-bars" aria-hidden="true"><i></i><i></i></span>
+        <span>Menu</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ========== HERO ========== -->
+<section class="hero" id="hero">
+  <div class="hero__media">
+    <img src="img/lieu-bar-exterieur V2.jpg" alt="Bar extérieur Pin Bouteille sous les pins" data-hero-img>
+    <span class="hero__veil" aria-hidden="true"></span>
+  </div>
+
+  <div class="hero__card" data-reveal>
+    <img class="hero__card-logo" src="img/logo-pnb.png" alt="PNB">
+    <h1 class="hero__tagline">Bistronomie <em>sous les pins</em></h1>
+    <p class="hero__address">
+      Route de Biscarrosse à Arcachon<br>
+      33115 Pyla sur Mer
+    </p>
+    <div class="hero__cta">
+      <button class="btn btn--ghost" data-open="reservation">
+        <span>Réserver une table</span>
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </button>
+    </div>
+    <div class="hero__maps">
+      <a href="https://maps.google.com/?q=Pin+Bouteille+Pyla+sur+Mer" target="_blank" rel="noopener" class="hero__map-link">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="#fff" aria-hidden="true"><path d="M19.527 4.799c1.212 2.608.937 5.678-.405 8.173-1.101 2.047-2.744 3.74-4.098 5.614-.619.858-1.244 1.75-1.669 2.727-.141.325-.263.658-.383.992-.121.333-.224.673-.34 1.008-.109.314-.236.684-.627.687h-.007c-.466-.001-.579-.53-.695-.887-.284-.874-.581-1.713-1.019-2.525-.51-.944-1.145-1.817-1.79-2.671L19.527 4.799z"/><path d="M8.545 7.705l-3.959 4.707c.724 1.54 1.821 2.863 2.871 4.18.247.31.494.622.737.936l4.984-5.925-.029.01c-1.741.601-3.691-.291-4.392-1.987a3.377 3.377 0 0 1-.209-.716c-.063-.437-.077-.761-.004-1.198l.001-.007z"/><path d="M5.492 3.149l-.003.004c-1.947 2.466-2.281 5.88-1.117 8.77l4.785-5.689-.058-.05-3.607-3.035z"/><path d="M14.661.436l-3.838 4.563a.295.295 0 0 1 .027-.01c1.6-.551 3.403.15 4.22 1.626.176.319.323.683.377 1.045.068.446.085.773.012 1.22l-.003.016 3.836-4.561A8.382 8.382 0 0 0 14.67.439l-.009-.003z"/><path d="M9.466 5.868L14.162.285l-.047-.012A8.31 8.31 0 0 0 11.986 0a8.439 8.439 0 0 0-6.169 2.766l-.016.018 3.665 3.084z"/></svg>
+        Google Maps
+      </a>
+      <a href="https://waze.com/ul?q=Pin+Bouteille+Pyla+sur+Mer" target="_blank" rel="noopener" class="hero__map-link">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="#fff" aria-hidden="true"><path d="M13.218 0C9.915 0 6.835 1.49 4.723 4.148c-1.515 1.913-2.31 4.272-2.31 6.706v1.739c0 .894-.62 1.738-1.862 1.813-.298.025-.547.224-.547.522-.05.82.82 2.31 2.012 3.502.82.844 1.788 1.515 2.832 2.036a3 3 0 0 0 2.955 3.528 2.966 2.966 0 0 0 2.931-2.385h2.509c.323 1.689 2.086 2.856 3.974 2.21 1.64-.546 2.36-2.409 1.763-3.924a12.84 12.84 0 0 0 1.838-1.465 10.73 10.73 0 0 0 3.18-7.65c0-2.882-1.118-5.589-3.155-7.625A10.899 10.899 0 0 0 13.218 0zm0 1.217c2.558 0 4.967.994 6.78 2.807a9.525 9.525 0 0 1 2.807 6.78A9.526 9.526 0 0 1 20 17.585a9.647 9.647 0 0 1-6.78 2.807h-2.46a3.008 3.008 0 0 0-2.93-2.41 3.03 3.03 0 0 0-2.534 1.367v.024a8.945 8.945 0 0 1-2.41-1.788c-.844-.844-1.316-1.614-1.515-2.11a2.858 2.858 0 0 0 1.441-.846 2.959 2.959 0 0 0 .795-2.036v-1.789c0-2.11.696-4.197 2.012-5.861 1.863-2.385 4.62-3.726 7.6-3.726zm-2.41 5.986a1.192 1.192 0 0 0-1.191 1.192 1.192 1.192 0 0 0 1.192 1.193A1.192 1.192 0 0 0 12 8.395a1.192 1.192 0 0 0-1.192-1.192zm7.204 0a1.192 1.192 0 0 0-1.192 1.192 1.192 1.192 0 0 0 1.192 1.193 1.192 1.192 0 0 0 1.192-1.193 1.192 1.192 0 0 0-1.192-1.192zm-7.377 4.769a.596.596 0 0 0-.546.845 4.813 4.813 0 0 0 4.346 2.757 4.77 4.77 0 0 0 4.347-2.757.596.596 0 0 0-.547-.845h-.025a.561.561 0 0 0-.521.348 3.59 3.59 0 0 1-3.254 2.061 3.591 3.591 0 0 1-3.254-2.061.64.64 0 0 0-.546-.348z"/></svg>
+        Waze
+      </a>
+      <a href="https://maps.apple.com/?q=Pin+Bouteille+Pyla+sur+Mer" target="_blank" rel="noopener" class="hero__map-link">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="#ffffff" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>
+        Plans
+      </a>
+    </div>
+  </div>
+
+  <div class="hero__scroll" aria-hidden="true">
+    <span class="hero__scroll-line"></span>
+    <span class="hero__scroll-text">Faire défiler</span>
+  </div>
+</section>
+
+<!-- ========== MANIFESTO ========== -->
+<section class="manifesto" id="histoire">
+  <div class="manifesto__inner">
+    <p class="eyebrow eyebrow--accent" data-reveal>L'esprit de la maison</p>
+    <h2 class="manifesto__quote" data-split>
+      <span>«&nbsp;On vient ici comme on vient chez des amis.</span>
+      <span>Une cuisine qui s'écrit avec la saison,</span>
+      <span><em>une terrasse qui sent le pin chaud,</em></span>
+      <span>et le bruit des verres qui s'entrechoquent.&nbsp;»</span>
+    </h2>
+    <div class="manifesto__sign" data-reveal>
+      <span>L'équipe Pin Bouteille</span>
+      <span class="manifesto__sep" aria-hidden="true"></span>
+      <span>ex&nbsp;La Salie Sud &amp; Nord</span>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CARTE ========== -->
+<section class="carte" id="carte">
+  <div class="carte__head">
+    <div>
+      <p class="eyebrow" data-reveal>Carte du moment</p>
+      <h2 class="section-title" data-split>Une table qui suit&nbsp;<em>la saison</em></h2>
+    </div>
+    <p class="carte__intro" data-reveal>
+      Renouvelée au fil des arrivages, pensée avec les producteurs du Bassin et nos pêcheurs partenaires. Quelques signatures du moment.
+    </p>
+  </div>
+
+  <ul class="carte__list" data-carte-list>
+
+    <li class="carte__item" data-img="img/plat-poulpe.jpg">
+      <div class="carte__item-row">
+        <span class="carte__num">01</span>
+        <div class="carte__item-text">
+          <h3>Poulpe rôti, sauce mangue curry</h3>
+          <p>Crème de potimarron au satay, tuile de cacahuète</p>
+        </div>
+        <span class="carte__price">18&nbsp;€</span>
+      </div>
+    </li>
+
+    <li class="carte__item" data-img="img/plat-burrata.jpg">
+      <div class="carte__item-row">
+        <span class="carte__num">02</span>
+        <div class="carte__item-text">
+          <h3>Burrata, pêches & framboises</h3>
+          <p>Pignons torréfiés, basilic frais, huile d'olive maison</p>
+        </div>
+        <span class="carte__price">16&nbsp;€</span>
+      </div>
+    </li>
+
+    <li class="carte__item" data-img="img/plat-poisson-bouillon.jpg">
+      <div class="carte__item-row">
+        <span class="carte__num">03</span>
+        <div class="carte__item-text">
+          <h3>Daurade au bouillon thaï</h3>
+          <p>Citronnelle, gingembre, légumes croquants, coriandre</p>
+        </div>
+        <span class="carte__price">26&nbsp;€</span>
+      </div>
+    </li>
+
+    <li class="carte__item" data-img="img/plat-magret.jpg">
+      <div class="carte__item-row">
+        <span class="carte__num">04</span>
+        <div class="carte__item-text">
+          <h3>Magret rosé, sauce vin rouge</h3>
+          <p>Salsifis et pleurotes rôtis, crème de panais</p>
+        </div>
+        <span class="carte__price">28&nbsp;€</span>
+      </div>
+    </li>
+
+    <li class="carte__item" data-img="img/plat-poisson-entier.jpg">
+      <div class="carte__item-row">
+        <span class="carte__num">05</span>
+        <div class="carte__item-text">
+          <h3>Poisson entier à partager</h3>
+          <p>Selon la pêche du jour, légumes du marché, sauce vierge</p>
+        </div>
+        <span class="carte__price">52&nbsp;€</span>
+      </div>
+    </li>
+
+    <li class="carte__item" data-img="img/plat-steak-frites.jpg">
+      <div class="carte__item-row">
+        <span class="carte__num">06</span>
+        <div class="carte__item-text">
+          <h3>Onglet de boeuf, frites maison</h3>
+          <p>Sauce béarnaise minute, sel de Guérande</p>
+        </div>
+        <span class="carte__price">24&nbsp;€</span>
+      </div>
+    </li>
+
+    <li class="carte__item" data-img="img/plat-saumon.jpg">
+      <div class="carte__item-row">
+        <span class="carte__num">07</span>
+        <div class="carte__item-text">
+          <h3>Saumon mi-cuit, légumes verts</h3>
+          <p>Tartare d'algues, vinaigrette yuzu, riz vénéré</p>
+        </div>
+        <span class="carte__price">26&nbsp;€</span>
+      </div>
+    </li>
+
+    <li class="carte__item" data-img="img/plat-creme-brulee.jpg">
+      <div class="carte__item-row">
+        <span class="carte__num">08</span>
+        <div class="carte__item-text">
+          <h3>Crème brûlée maison</h3>
+          <p>Vanille de Tahiti, caramel craquant minute</p>
+        </div>
+        <span class="carte__price">9&nbsp;€</span>
+      </div>
+    </li>
+
+  </ul>
+
+  <div class="carte__hover" data-carte-hover aria-hidden="true">
+    <div class="carte__hover-inner">
+      <img alt="" data-carte-img>
+    </div>
+  </div>
+
+  <div class="carte__foot" data-reveal>
+    <p>Carte renouvelée à chaque saison. Suggestions du chef à l'ardoise. Options végétariennes à toutes les entrées et plats.</p>
+    <a class="link-arrow" href="#reserver">
+      Réserver pour découvrir
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- ========== UNIVERS ========== -->
+<section class="univers" id="univers">
+  <div class="univers__head">
+    <p class="eyebrow eyebrow--accent" data-reveal>Quatre univers, un même lieu</p>
+    <h2 class="section-title section-title--light" data-split>Du déjeuner ensoleillé<br>aux soirées <em>sous les pins</em></h2>
+  </div>
+
+  <div class="univers__grid">
+
+    <article class="card" data-reveal>
+      <div class="card__media">
+        <img src="img/lieu-interieur.jpg" alt="Salle intérieure chaleureuse avec lampes en rotin">
+      </div>
+      <div class="card__body">
+        <span class="card__num">01 / Restaurant</span>
+        <h3 class="card__title">Bistronomie chaleureuse</h3>
+        <p>Cuisine maison, créative et accessible. Beaux dressages, portions généreuses, produits locaux. Le midi en formule, le soir à la carte.</p>
+        <div class="card__meta">
+          <span>12h15 — 14h30</span>
+          <span>19h00 — 22h00</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card" data-reveal>
+      <div class="card__media">
+        <img src="img/univers-bar.jpg" alt="Bar extérieur en bois sous parasols beige">
+      </div>
+      <div class="card__body">
+        <span class="card__num">02 / Bar à tapas</span>
+        <h3 class="card__title">L'apéro sous les pins</h3>
+        <p>Tapas classiques et créations du moment, planches à partager, vins du Bassin et ailleurs. Le rendez-vous des fins de journée.</p>
+        <div class="card__meta">
+          <span>Bar extérieur</span>
+          <span>Tous les soirs en saison</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card" data-reveal>
+      <div class="card__media">
+        <img src="img/lieu-scene-neon.jpg" alt="Scène avec enseigne PNB et batterie sur la terrasse en bois">
+      </div>
+      <div class="card__body">
+        <span class="card__num">03 / Live music</span>
+        <h3 class="card__title">Concerts sous les étoiles</h3>
+        <p>Programmation live au bar extérieur l'été, soirées DJ sets et fête de la musique. La signature Pin Bouteille, sous les étoiles.</p>
+        <div class="card__meta">
+          <span>Concerts juillet — août</span>
+          <span>Privatisation possible</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card" data-reveal>
+      <div class="card__media">
+        <img src="img/lieu-petanque.jpg" alt="Terrain de pétanque devant le graffiti vert PNB">
+      </div>
+      <div class="card__body">
+        <span class="card__num">04 / Pétanque</span>
+        <h3 class="card__title">Le terrain sous les pins</h3>
+        <p>Terrain de pétanque dédié, parties improvisées entre l'apéro et le dîner. Tournois maison en saison, prêt de boules sur place.</p>
+        <div class="card__meta">
+          <span>Sur réservation</span>
+          <span>Été non stop</span>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ========== MERCH ========== -->
+<section class="merch" id="merch">
+  <div class="merch__head">
+    <div>
+      <p class="eyebrow" data-reveal>La boutique sur place</p>
+      <h2 class="section-title" data-split>Le <em>merch</em> Pin Bouteille</h2>
+    </div>
+    <p class="merch__intro" data-reveal>
+      T-shirts dessinés maison avec notre logo signature. Tirage limité, coton bio fabriqué en France, à retirer directement au restaurant.
+    </p>
+  </div>
+
+  <div class="merch__grid">
+
+    <article class="merch-card" data-reveal>
+      <div class="merch-mock merch-mock--white" aria-hidden="true">
+        <img class="merch-mock__logo" src="img/logo-pnb.png" alt="">
+      </div>
+      <div class="merch-card__body">
+        <span class="merch-card__cat">T-shirt unisexe · Coton bio</span>
+        <h3 class="merch-card__title">Tee PNB blanc</h3>
+        <span class="merch-card__price">28 €</span>
+        <span class="merch-card__sub">Tailles XS à XXL</span>
+      </div>
+    </article>
+
+    <article class="merch-card" data-reveal>
+      <div class="merch-mock merch-mock--black" aria-hidden="true">
+        <img class="merch-mock__logo" src="img/logo-pnb.png" alt="">
+      </div>
+      <div class="merch-card__body">
+        <span class="merch-card__cat">T-shirt unisexe · Coton bio</span>
+        <h3 class="merch-card__title">Tee PNB noir</h3>
+        <span class="merch-card__price">28 €</span>
+        <span class="merch-card__sub">Tailles XS à XXL</span>
+      </div>
+    </article>
+
+    <article class="merch-card" data-reveal>
+      <div class="merch-mock merch-mock--pine" aria-hidden="true">
+        <img class="merch-mock__logo" src="img/logo-pnb.png" alt="">
+      </div>
+      <div class="merch-card__body">
+        <span class="merch-card__cat">T-shirt unisexe · Coton bio</span>
+        <h3 class="merch-card__title">Tee PNB pinède</h3>
+        <span class="merch-card__price">28 €</span>
+        <span class="merch-card__sub">Tailles XS à XXL</span>
+      </div>
+    </article>
+
+    <article class="merch-card" data-reveal>
+      <div class="merch-mock merch-mock--sand" aria-hidden="true">
+        <img class="merch-mock__logo" src="img/logo-pnb.png" alt="">
+      </div>
+      <div class="merch-card__body">
+        <span class="merch-card__cat">T-shirt unisexe · Coton bio</span>
+        <h3 class="merch-card__title">Tee PNB sable</h3>
+        <span class="merch-card__price">28 €</span>
+        <span class="merch-card__sub">Tailles XS à XXL</span>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="merch__foot" data-reveal>
+    <div class="merch__foot-text">
+      <h4>Vente <em>uniquement sur place</em></h4>
+      <p>Tu repars avec ton tee en plus du dessert. Demande à l'équipe au comptoir, on te montre toutes les tailles. Pas d'envoi postal pour le moment.</p>
+    </div>
+    <button class="btn btn--solid" data-open="reservation">
+      <span>Réserver et passer</span>
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </button>
+  </div>
+</section>
+
+<!-- ========== VISIT ========== -->
+<section class="visit" id="visiter">
+
+  <div class="visit__content">
+    <div class="visit__head">
+      <p class="eyebrow" data-reveal>Nous trouver</p>
+      <h2 class="section-title" data-split>À <em>table&nbsp;?</em></h2>
+    </div>
+
+    <div class="visit__grid">
+
+      <div class="visit__info">
+        <ul class="visit__list">
+          <li class="visit__item" data-reveal>
+            <span class="visit__label">Adresse</span>
+            <p class="visit__value">Route de Biscarrosse à Arcachon<br>33115 Pyla sur Mer</p>
+          </li>
+          <li class="visit__item" data-reveal>
+            <span class="visit__label">Téléphone</span>
+            <p class="visit__value"><a href="tel:+33556541914">05 56 54 19 14</a></p>
+          </li>
+          <li class="visit__item" data-reveal>
+            <span class="visit__label">Email</span>
+            <p class="visit__value"><a href="mailto:pinbouteille@gmail.com">pinbouteille@gmail.com</a></p>
+          </li>
+          <li class="visit__item" data-reveal>
+            <span class="visit__label">Instagram</span>
+            <p class="visit__value"><a href="https://instagram.com/pinbouteille" target="_blank" rel="noopener">@pinbouteille</a></p>
+          </li>
+        </ul>
+
+        <button class="btn btn--outline" data-open="reservation" id="reserver" data-reveal>
+          <span>Réserver une table</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+
+      <div class="visit__hours" data-reveal>
+        <div class="visit__hours-block">
+          <span class="visit__label">Pleine saison</span>
+          <p class="visit__value">Tous les jours</p>
+          <p class="visit__time">12h15 — 14h30</p>
+          <p class="visit__time">19h00 — 22h00</p>
+        </div>
+
+        <div class="visit__hours-block">
+          <span class="visit__label">Hors saison</span>
+          <p class="visit__value">Du jeudi au lundi</p>
+          <p class="visit__time">12h15 — 14h00</p>
+          <p class="visit__time">19h00 — 21h00</p>
+          <p class="visit__note">Fermé mardi et mercredi</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="footer__inner">
+    <a href="#hero" class="footer__logo">
+      <img src="img/logo-pnb.png" alt="Pin Bouteille">
+    </a>
+
+    <nav class="footer__nav" aria-label="Pied de page">
+      <a href="#carte">Carte</a>
+      <a href="#univers">Univers</a>
+      <a href="#merch">Merch</a>
+      <a href="#visiter">Visiter</a>
+      <a href="https://instagram.com/pinbouteille" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+
+    <p class="footer__address">
+      Route de Biscarrosse à Arcachon, 33115 Pyla sur Mer<br>
+      05 56 54 19 14 &nbsp;·&nbsp; pinbouteille@gmail.com
+    </p>
+  </div>
+
+  <div class="footer__bottom">
+    <span>© 2026 Pin Bouteille. Tous droits réservés.</span>
+    <span>Site réalisé par <a href="https://bassinwebflow.fr" target="_blank" rel="noopener">BassinWebFlow</a></span>
+  </div>
+</footer>
+
+<!-- ========== MENU OVERLAY ========== -->
+<aside class="overlay" data-overlay="menu" aria-hidden="true">
+  <div class="overlay__inner overlay__inner--menu">
+    <button class="overlay__close" data-close aria-label="Fermer le menu">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+
+    <div class="overlay__grid">
+      <div class="overlay__col">
+        <p class="overlay__label">Naviguer</p>
+        <ul class="overlay__nav">
+          <li><a href="#hero" data-close-nav>Accueil</a></li>
+          <li><a href="#histoire" data-close-nav>L'esprit</a></li>
+          <li><a href="#carte" data-close-nav>Carte du moment</a></li>
+          <li><a href="#univers" data-close-nav>Nos univers</a></li>
+          <li><a href="#merch" data-close-nav>Merch</a></li>
+          <li><a href="#visiter" data-close-nav>Visiter</a></li>
+        </ul>
+      </div>
+
+      <div class="overlay__col">
+        <p class="overlay__label">Pratique</p>
+        <ul class="overlay__nav overlay__nav--small">
+          <li><a href="tel:+33556541914">05 56 54 19 14</a></li>
+          <li><a href="mailto:pinbouteille@gmail.com">pinbouteille@gmail.com</a></li>
+          <li><a href="https://instagram.com/pinbouteille" target="_blank" rel="noopener">@pinbouteille</a></li>
+        </ul>
+
+        <p class="overlay__label overlay__label--mt">Adresse</p>
+        <p class="overlay__address">
+          Route de Biscarrosse à Arcachon<br>
+          33115 Pyla sur Mer
+        </p>
+      </div>
+    </div>
+
+    <p class="overlay__signature">Bistronomie sous les pins, depuis 2024.</p>
+  </div>
+</aside>
+
+<!-- ========== RESERVATION OVERLAY ========== -->
+<aside class="overlay overlay--booking" data-overlay="reservation" aria-hidden="true">
+  <div class="overlay__inner overlay__inner--booking">
+    <button class="overlay__close" data-close aria-label="Fermer">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+
+    <div class="booking">
+      <div class="booking__head">
+        <p class="overlay__label">Réservation en ligne</p>
+        <h3>Une table chez nous&nbsp;?</h3>
+      </div>
+
+      <form class="booking__form" data-booking>
+        <div class="booking__field">
+          <label for="bk-date">Date</label>
+          <input id="bk-date" type="date" required>
+        </div>
+
+        <div class="booking__field">
+          <label for="bk-time">Service</label>
+          <select id="bk-time" required>
+            <option value="">Choisir un horaire</option>
+            <optgroup label="Déjeuner">
+              <option>12h15</option>
+              <option>12h45</option>
+              <option>13h15</option>
+              <option>13h45</option>
+            </optgroup>
+            <optgroup label="Dîner">
+              <option>19h00</option>
+              <option>19h30</option>
+              <option>20h00</option>
+              <option>20h30</option>
+              <option>21h00</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <div class="booking__field">
+          <label for="bk-guests">Couverts</label>
+          <select id="bk-guests" required>
+            <option value="2">2 personnes</option>
+            <option value="3">3 personnes</option>
+            <option value="4">4 personnes</option>
+            <option value="5">5 personnes</option>
+            <option value="6">6 personnes</option>
+            <option value="7">7 personnes ou plus</option>
+          </select>
+        </div>
+
+        <div class="booking__field booking__field--full">
+          <label for="bk-name">Nom</label>
+          <input id="bk-name" type="text" required placeholder="Votre nom">
+        </div>
+
+        <div class="booking__field booking__field--full">
+          <label for="bk-tel">Téléphone</label>
+          <input id="bk-tel" type="tel" required placeholder="Pour vous joindre">
+        </div>
+
+        <div class="booking__field booking__field--full">
+          <label for="bk-note">Note (optionnel)</label>
+          <textarea id="bk-note" rows="2" placeholder="Allergies, occasion, demande spéciale..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--solid btn--full booking__submit">
+          <span>Confirmer la demande</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+
+        <p class="booking__hint">On vous confirme par téléphone dans les 2h. Pour les groupes de 7 et plus, appelez nous au 05 56 54 19 14.</p>
+      </form>
+    </div>
+  </div>
+</aside>
+
+<!-- ========== TOAST ========== -->
+<div class="toast" data-toast aria-live="polite"></div>
+
+<!-- ========== SCRIPTS ========== -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

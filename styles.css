@@ -1230,7 +1230,7 @@ body.is-locked { overflow: hidden; }
     min-height: 44px;
     justify-content: center;
   }
-  .nav__menu-btn span { display: none; }
+  .nav__menu-btn > span:not(.nav__menu-bars) { display: none; }
   .nav__logo-img { height: 48px; }
   .nav.is-scrolled .nav__logo-img { height: 36px; }
 
